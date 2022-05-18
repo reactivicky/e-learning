@@ -1,0 +1,21 @@
+footer {
+  background: #13183F;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+
+@media (min-width:500px) {
+  footer {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (min-width:1000px) {
+  footer {
+    padding: 0 10.3rem;
+  }
+}
